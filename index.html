@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tea luxe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#" >
+          <img class="logo__image" src="images/logo.svg" width='73'height='105' alt="company-logoTea luxe" >
+        </a>
+        <div class="blur blur"></div>
+        <nav class='menu'>
+          <button onclick='openMenuFunc()' class="menu__btn">
+            <span class='menu__btn-span'></span>
+            <span class='menu__btn-span'></span>
+            <span class='menu__btn-span'></span>
+            <span class='menu__btn-span'></span>
+          </button>
+          <ul class="menu__list menu__list">
+
+            <li class="menu__close">
+              <button onclick='closeMenuFunc()' class="menu__close-btn">
+                <img class="menu__close-img" src="/images/close.svg"width='20' height='20' alt="close button" >
+              </button>
+            </li><!--- End of closed button -->
+            <li class="menu__item">
+              <a  class="menu__link" href="#">Black</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Green</a>
+            </li>
+            <li class="menu__item">
+              <a  class="menu__link" href="#">White</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Oolong</a>
+            </li>
+            <li class="menu__item">
+              <a  class="menu__link" href="#">Pu-erh</a>
+            </li>
+
+            <li class="mobile">
+              <ul class="mobile__menu">
+                <li class="mobile__menu-item">
+                  <a class="mobile__menu-link" href="#" >Contact Us
+                  </a>
+                </li>
+                <li class="mobile__menu-item">
+                  <a class="mobile__menu-link" href="#" >Our Blog
+                  </a>
+                </li>
+                <li class="mobile__menu-item">
+                  <a class="mobile__menu-link" href="#" >Shipping and Delivery                   
+                  </a>
+                </li>
+              </ul>
+              <ul class="mobile__actions">
+                <li class="mobile__actions-item">
+                  <a  class="mobile__actions-link"href="#">
+                    <img class="mobile__actions-cart" src="images/cart.svg" width='20' height='22' alt="cart"  >
+                  </a>
+                </li>
+                <li class="mobile-actions__item">
+                  <a  class="mobile-actions__link" href="#">
+                    <img class="mobile-actions__user" src="images/user.svg"  width='18' height='22' alt="user" >
+                  </a>
+                </li>
+                <li class="mobile-actions__item " >
+                  <a  class="mobile-actions__link" href="#">
+                    <img class="mobile-actions__search" src="images/search.svg"  width='22' height='22' alt="search-button" >
+                  </a>
+                </li>
+              </ul><!--- End of mobile-actions -->
+            </li><!--- End of mobile -->
+          </ul>
+
+        </nav>
+        <ul class="user-actions">
+          <li class="user-actions__item">
+            <a  class="user-actions__link"href="#">
+              <img class="user-actions__cart" src="images/cart.svg" width='20' height='22' alt="cart"  ></a>
+          </li>
+          <li class="user-actions__item">
+            <a  class="user-actions__link" href="#">
+              <img class="user-actions__user" src="images/user.svg"  width='18' height='22' alt="user" ></a>
+          </li>
+          <li class="user-actions__item user-actions__item-search" >
+            <a  class="user-actions__link" href="#">
+              <img class="user-actions__search" src="images/search.svg"  width='22' height='22' alt="search-button" ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  
+  <main class="main">
+    <section class="top">
+      <div class="container">
+        <div class="top__inner">
+          <h1 class="top__title">
+            A cup of tea is a moment of calm in the chaos of life
+          </h1>
+          <p class="top__text">
+            Wide selection of high-quality teas from all over the world, carefully curated by tea experts.
+          </p>
+        </div>
+      </div><!--- End of container -->
+    </section>
+    <blockquote class="blockquote">
+      <p class="blockquote__text">"Tea is not just a drink, it's a way of life and a way to connect with our loved ones."</p>
+    </blockquote>
+  </main>
+   <div class="product">
+    <div class="container">
+      <h2 class="product__title">Explore our Collections</h2>
+      <div class="product__inner">
+        <ul class="product__list">
+          <li class="product__item">
+            <a  class="product__link"href="#">
+              <img class="product__img" src="/images/black.svg" alt="black tea" >
+              <p class="product__text">Black</p>
+            </a>
+          </li>
+          <li class="product__item">
+            <a  class="product__link"href="#">
+              <img class="product__img" src="/images/green.svg" alt="green tea" >
+              <p class="product__text">Green</p>
+            </a>
+          </li>
+          <li class="product__item">
+            <a  class="product__link" href="#">
+              <img class="product__img" src="/images/white.svg" alt="white tea" >
+              <p class="product__text">White</p>
+            </a>
+          </li>
+          <li class="product__item">
+            <a class="product__link" href="#">
+              <img class="product__img" src="/images/oolong.svg" alt="oolong tea" >
+              <p class="product__text">Oolong</p>
+            </a>
+          </li>
+          <li class="product__item">
+            <a  class="product__link" href="#">
+              <img class="product__img" src="/images/puerh.svg" alt="pu-erh tea" >
+              <p class="product__text">Pu-erh</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+   </div><!--- End of product -->
+   <article class="testimonial">
+    <div class="container">
+      <h1 class="testimonial__title">What our Clients say</h1>
+      <ul class="testimonial__list">
+        <li class="testimonial__item">
+          <blockquote class="blockquote">"As a tea enthusiast, I have tried teas from all over the world, but this tea store truly stands out. Their teas are of the highest quality and the variety is impressive. This is definitely a tea store that every tea lover should visit."
+            <footer class="blockquote__footer">Alice</footer>
+          </blockquote>
+        </li>
+        <li class="testimonial__item testimonial__item--hidden">
+          <blockquote class="blockquote">"This tea store is my go-to for all my tea needs. Their selection is unbeatable and the quality of their teas is exceptional."
+            <footer class="blockquote__footer">Mad-Hatter</footer> 
+          </blockquote>
+        </li>
+        <li class="testimonial__item3">
+          <blockquote class="blockquote " >
+            "If you're a tea lover, you must visit this tea store. The selection is vast and the quality is outstanding. I guarantee you won't be disappointed."
+            <footer class="blockquote__footer">March Hare</footer>
+          </blockquote>
+        </li>
+        <li class="testimonial__item testimonial__item--hidden">
+          <blockquote class="blockquote">"I am not a big tea drinker, but this tea store has converted me. I highly recommend this tea store to anyone looking for a high-quality tea experience."
+            <footer class="blockquote__footer">Dormouse</footer>
+          </blockquote>
+        </li>
+      </ul>
+    </div>
+   </article>
+   <section class="history">
+    <div class="container">
+      <h1 class="history__title">Our Tea Blog</h1>
+      <article class="history__inner">
+        <article class="history__box1">
+          <img class="history__box_photo" src="/images/pot.svg" width='270' height='180' alt="brewed teapot tea and cup on the green table" >
+          <div class="history__box_inner">
+            <h2 class="history__box_title">
+              Tea Time Travels: Funny Moments from Around the World
+            </h2>
+            <p class="history__box_text">by Robinson Crusoe</p>
+            <a class="history__box_link" href="#">Read</a>
+          </div> 
+        </article>
+        <article class="history__box">
+          <img class="history__box_photo" src="/images/joker.svg" width='270' height='180' alt="brewed teapot tea and cup on the green table" >
+          <div class="history__box_inner">
+            <h2 class="history__box_title">
+              The Role of Tea in Mental Health
+            </h2>
+            <p class="history__box_text">by Joker</p>
+            <a class="history__box_link" href="#">Read</a>
+          </div> 
+        </article>
+        
+           <article class="history__box1 history__box_hidden">
+          <img class="history__box_photo" src="/images/book.svg" width='270' height='180' alt="brewed teapot tea and cup on the green table" >
+          <div class="history__box_inner">
+            <h2 class="history__box_title">
+              Tea-rich Tales: Hilarious Stories from Tea Lovers
+            </h2>
+            <p class="history__box_text">by Casper the Friendly Ghost</p>
+            <a class="history__box_link" href="#">Read</a>
+          </div> 
+        </article>
+        <article class="history__box history__box_hidden">
+          <img class="history__box_photo" src="/images/tea.svg" width='270' height='180' alt="brewed teapot tea and cup on the green table" >
+          <div class="history__box_inner">
+            <h2 class="history__box_title">
+              Tea and Caffeine: Effects on the Brain and Behavior
+            </h2>
+            <p class="history__box_text">by Author Albert</p>
+            <a class="history__box_link" href="#">Read</a>
+        </article>
+        </div> 
+      </article><!--- End of history-inner -->
+      <button class="history__btn">View all</button>
+    </div>
+   </section>
+
+   <section class="info">
+    <div class="container">
+    <article class="info__inner">
+      <div class="info__left">
+        <h1 class="info__title">Want to know more?</h1>
+        <p class="info__text">
+          Join our mailing list and stay up-to-date with the latest news, promotions, and exclusive offers from our tea store. Be the first to know about new tea arrivals, seasonal blends, and special discounts. Don't miss out on the tea-rich perks - sign up today!
+        </p>
+      </div>
+      <div class="info__right">
+        <form action="#" method='get' class="form">
+          <div class="form__info">
+            <label for="email">
+              <input class="form__input" type="email"  placeholder='name@email.com'>
+            </label>
+            <button class="form__btn">join</button>
+          </div>
+
+          <div class='form__check'>
+            <input type="checkbox" name="" id="" required>
+            <p class="info__right_text">
+              We take your privacy seriously and are committed to protecting your personal information. By subscribing to our mailing list, you are consenting to receive periodic emails from us about our products, promotions, and other tea-related information.
+            </p>
+          </div>
+        </form>
+      </div>
+    </article>
+    </div> 
+   </section><!--- End of info -->
+
+   <section class="service">
+    <div class="container">
+      <h1 class="service__title">We Priorities</h1>
+      <ul class="service__list">
+        <li class="service__item">
+          <a class="service__link" href="#">
+            <h2 class="service__link_title">Single garden teas</h2>
+            <p class="service__link_text">Complete transparency</p>
+            <img class="service__link_img" src="/images/ball.svg" width='60' height='60' alt="" >
+          </a>
+        </li>
+        <li class="service__item">
+          <a class="service__link" href="#">
+            <h2 class="service__link_title">Only Loose leaf tea</h2>
+            <p class="service__link_text">Best Drinking Experience</p>
+            <img class="service__link_img" src="/images/leaves.svg" width='60' height='60'  alt="" >
+          </a>
+        </li>
+        <li class="service__item">
+          <a class="service__link" href="#">
+            <h2 class="service__link_title">Customer support</h2>
+            <p class="service__link_text">No bots, no automated replies</p>
+            <img class="service__link_img" src="/images/call.svg"width='60' height='60' alt="" >
+          </a>
+        </li>
+        <li class="service__item">
+          <a class="service__link" href="#">
+            <h2 class="service__link_title">Fast shipping</h2>
+            <p class="service__link_text">Save, Convenient, Reliable</p>
+            <img class="service__link_img" src="/images/box.svg"width='60' height='60' alt="" >
+          </a>
+        </li>
+      </ul>
+    </div>
+   </section><!--- End of service -->
+   <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__about">
+          <ul class="footer__list">
+            <h2 class="footer__title">Products</h2>
+            <li class="footer__item">
+              <a  class="footer__link"href="">
+                <p class="footer__text">Black tea</p>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a  class="footer__link"href="">
+                <p class="footer__text">Green tea</p>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a  class="footer__link"href="">
+                <p class="footer__text">White tea</p>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a  class="footer__link"href="">
+                <p class="footer__text">Oolong tea</p>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link"href="">
+                <p class="footer__text">Pu-erh tea</p>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="footer__list">
+            <h2 class="footer__title">Company</h2>
+            <li class="footer__item">
+              <a  class="footer__link"href="">
+                <p class="footer__text">About Us</p>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a  class="footer__link"href="">
+                <p class="footer__text">Contact Us</p>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a  class="footer__link"href="">
+                <p class="footer__text">Our Blog</p>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a  class="footer__link"href="">
+                <p class="footer__text">FAQ</p>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link"href="">
+                <p class="footer__text">Shipping & Delivery</p>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a  class="footer__link"href="">
+                <p class="footer__text">Refund policy</p>
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link"href="">
+                <p class="footer__text">Terms of Service</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <div class="footer__contact_left">
+            <blockquote class="blockquote">
+              <p class="blockquote">
+                “Tea is a journey. It can take you to new places and open your mind to new experiences. Let every sip transport you to a world of wonder and possibility”
+              </p>
+              <footer class="blockquote__footer">
+                Dragomir Teodorescu,<br>
+                <cite>Tealuxe owner</cite>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="footer__contact_right">
+            <div class="footer__contact_top">
+              <h1 class="footer__contact_title">Stay In Touch</h1>
+              <p class="footer__contact_text">
+                Please feel free to contact us via the email of phone. We would be happy to hear from you!
+              </p>
+            </div>
+            <div class="footer__contact_bottom">
+              <a class="footer__contact__link"href="/index.html" >
+                 <img class="footer__contact_img" src="/images/logomini.svg" width='55' height='72' alt="company logo" >
+              </a>
+              <div class="footer__contact_social">
+                <a class="footer__contact_social_phone"href="tel:+370 680 123456">+370 680 123456</a>
+                <a class="footer__contact_social_email"href="mailto:info@tealuxe.com">info@tealuxe.com</a>
+                <div class="footer__contact_social_social">
+                  <a class="footer__contact_social_media"href="https://www.facebook.com/"target='_blank'>
+                    <img class="footer__contact_social_img" src="/images/face.svg" width='22'height='22' alt="logo facebook" >
+                  </a>
+                  <a class="footer__contact_social_media"href="https://www.youtube.com/"target='_blank'>
+                    <img class="footer__contact_social_img" src="/images/you.svg" width='24'height='18' alt="logo youtube" >
+                  </a>
+                  <a class="footer__contact_social_media"href="https://www.instagram.com/"target='_blank'>
+                    <img class="footer__contact_social_img" src="/images/insta.svg" width='22'height='22' alt="logo instagram" >
+                  </a>
+                  <a class="footer__contact_social_media"href="#">
+                    <img class="footer__contact_social_img" src="/images/twit.svg" width='22'height='18' alt="logo twitter" >
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!--- End of footer-inner -->
+      <div class="footer__pay">
+        <p class="footer__pay_copyrighter">Copyright &copy <span class="footer__pay_text">Tealuxe, 2023</span>
+        </p>
+        <div class="footer__pay_payment">
+          <a  class="footer__pay_pay" href="">
+            <img class="footer__pay_img" src="/images/mastercard.svg" width='26' height='20' alt="logo mastercard" >
+          </a>
+          <a  class="footer__pay_pay" href="">
+            <img class="footer__pay_img" src="/images/visa.svg" width='31' height='10' alt="logo visa card" >
+          </a>
+          <a  class="footer__pay_pay" href="https://fast.com/">
+            <img class="footer__pay_img" src="/images/google-pay.svg"width='29' height='12' alt="logo google pay" >
+          </a>
+          <a  class="footer__pay_pay" href="https://payme.uz/home/payment"target='_blank'>
+            <img class="footer__pay_img" src="/images/payme.svg"width='20' height='20' alt="logo payme" >
+          </a>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
